@@ -1,12 +1,7 @@
 package ThreadLocal;
 
+import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
-import com.fasterxml.jackson.annotation.JsonIncludeProperties;
-
-import java.util.List;
-import java.util.Map;
-@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Employee {
     private String name;
     private int age;
