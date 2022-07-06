@@ -1,4 +1,4 @@
-package GoogleOAuth;
+package ThreadLocal.GoogleOAuth;
 
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
